@@ -1,0 +1,20 @@
+body{
+	/*changing background-color*/
+	background-color: yellow;
+	border: solid;
+	border-width: 10px;
+	border-color: red;
+	margin: 25px;
+	font-family: serif;
+	background-image: url("bg.jpg");
+	background-size: cover;
+}
+
+h1,h2{
+	/*align text for headers*/
+	text-align: center;
+}
+
+p, img, .last{
+	margin: 20px;
+}

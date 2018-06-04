@@ -1,0 +1,45 @@
+<!-- Ziaul -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- adding/linking css and javaScript to my HTML page -->
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/normalize.css">
+	<script type="text/javascript" src="js/main.js"></script> 
+	<title>Into JavaScript</title>
+</head>
+<body>
+	<h1>Hello from HTML page.</h1>
+
+	<div onclick="change()" id="txtChange">Change Me!</div>
+	<p></p>
+
+	<div onclick="change2()" id="addText">text will be added at the end</div>
+	<p></p>
+
+	<div onclick="change3()" id="txtChange3">Change Me to a Number!</div>
+	<p></p>
+
+	<!-- 
+	<div onclick="change4()" id="mathOpr">2 + 2 = </div>
+	<p></p>
+	 -->
+
+	<div onclick="aboutInfo()" id="txtChange5">Click to Know About a Random Guy</div>
+	<p></p>
+
+	<form action="/process" method="POST">
+		<label for="username"> Username</label>
+		<input type="text" name="username" id="username">
+		<label for="password">Password</label>
+		<input type="password" name="password">
+		<input type="submit" value="Submit">
+	</form>
+
+	<h1>First Header</h1>
+	<h1>Second Header</h1>
+	<h1>Third Header</h1>
+
+</body>
+</html>

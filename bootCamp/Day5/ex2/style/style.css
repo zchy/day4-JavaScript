@@ -1,0 +1,51 @@
+/*<
+	Group Members:
+	Ziaul Choudhury
+	Sulaiman Jalloh
+	Mamadou Kaly Diallo 
+*/
+
+/*CSS page for styling to make the page look little decent*/
+
+body{
+	background-image: url("../images/bg.jpg");
+	width: 960px;
+	margin: 0 auto;
+}
+
+#input, #form, #first, #form-title, #success, #anyK{
+	text-align: center;
+	margin-top: 25px;
+}
+
+#inputBox{
+    height:150px;
+    width: 350px;
+    font-size:35pt;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: red;
+}

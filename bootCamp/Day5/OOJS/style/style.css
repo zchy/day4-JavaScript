@@ -1,0 +1,7 @@
+body{
+	background-image: url("../images/bg.jpg");
+	background-color: skyblue;
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}

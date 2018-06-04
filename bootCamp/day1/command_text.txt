@@ -1,0 +1,24 @@
+
+GI-lab231-12:test student$ cd
+GI-lab231-12:~ student$ cd desktop
+GI-lab231-12:desktop student$ mkdir my-project // make dir
+GI-lab231-12:desktop student$ cd my-project
+GI-lab231-12:my-project student$ touch index.html // create file
+GI-lab231-12:my-project student$ ls
+index.html
+GI-lab231-12:my-project student$ mkdir styles
+GI-lab231-12:my-project student$ ls
+index.html	styles
+GI-lab231-12:my-project student$ cd styles
+GI-lab231-12:styles student$ touch style.css
+GI-lab231-12:styles student$ ls
+style.css
+GI-lab231-12:styles student$ 
+GI-lab231-12:bootcamp student$ touch command_text.txt
+GI-lab231-12:bootcamp student$ q
+-bash: q: command not found
+GI-lab231-12:bootcamp student$ touch t.txt
+GI-lab231-12:bootcamp student$ less t.txt // see the end of the file, q to quit
+GI-lab231-12:bootcamp student$ open t.txt // open file
+GI-lab231-12:bootcamp student$ cp index.html index2.html // copy the file wiht index2.html
+GI-lab231-12:bootcamp student$  

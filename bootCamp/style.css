@@ -1,0 +1,33 @@
+body{
+	font-family: "Georgia";
+/*	margin: 20px;
+	padding: 50px;*/
+	width: 900px;
+	margin: 0 auto; /*0 for top and bottom. auto for left and right*/
+}
+h1{
+	color: darkgreen;
+}
+
+h1, h3{
+	text-align: center;
+}
+
+p{
+	line-height: 19px;
+	padding: 25px;
+	border: 25px;
+	/*border-style: dotted;*/
+}
+
+.upper{
+	text-transform: uppercase;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}

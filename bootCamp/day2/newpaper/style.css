@@ -1,0 +1,47 @@
+		body{
+			background-color: #FFFFE0;
+		}
+
+		nav li {
+    		list-style-type: none;
+		}
+
+		span{
+			color: red;
+		}
+
+		#container{
+			width: 900px;
+			margin: 0 auto;
+			background-color:  #FFFFE0;
+		}
+
+		.my_float{
+			float: left;
+			display: inline;
+			width: 400px;
+			padding: 5px 25px 0px 25px;
+			/*position: relative;*/
+		}
+
+		.longArticle p{
+			color: darkgreen;
+		}
+
+		img{
+			float: left;
+			padding: 0px 10px 10px 0px;
+		}
+
+		h1{
+			text-align: center;
+		}
+
+		@media all and (max-width: 960px){
+			body{
+				background-color: orange;
+				margin-left: 0;
+			}
+		}
+
+		@media all and (max-width: 960px) and (min-width: 481);

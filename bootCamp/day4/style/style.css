@@ -1,0 +1,12 @@
+/*Ziaul*/
+/*adding some styling to body*/
+body{
+	background-color: skyblue;
+	width: 900px;
+	margin: 0 auto;
+}
+
+/*making h1 and divs to on the center*/
+h1, div{
+	text-align: center;
+}
