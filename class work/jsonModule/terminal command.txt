@@ -1,0 +1,52 @@
+Ziaul
+
+Module with Node Packages:
+
+GI231Lab-01:day9 student$ cd jsonModule
+GI231Lab-01:jsonModule student$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (jsonmodule) 
+version: (1.0.0) 
+description: 
+entry point: (my-module.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/student/Desktop/day9/jsonModule/package.json:
+
+{
+  "name": "jsonmodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my-module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) y
+GI231Lab-01:jsonModule student$ 
+
+GI231Lab-01:jsonModule student$ npm ls
+jsonmodule@1.0.0 /Users/student/Desktop/day9/jsonModule
+└── (empty)
+
+GI231Lab-01:jsonModule student$ npm ls --depth 0
+jsonmodule@1.0.0 /Users/student/Desktop/day9/jsonModule
+└── (empty)
+
+GI231Lab-01:jsonModule student$ 
