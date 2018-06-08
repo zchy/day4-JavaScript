@@ -1,0 +1,149 @@
+/*Ziaul*/
+/*setting up a background image */
+body{
+	background-image: url("images/bg.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+/*cetering*/
+.centeredParent{
+	margin: auto;
+	width: 50% auto;
+	padding: 10px;
+	text-align: center;
+
+}
+
+/*change font of h1 and etc*/
+h1{
+	font-family: "Comic Sans MS";
+	color: #ffffff;
+	font-weight: bolder;
+}
+
+/*mov title text color green*/
+#movie-title{
+	color: darkgreen;
+
+}
+
+/*sytling input box with animation when clicked*/
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url('images/searchicon.png');
+    background-size: 25px 25px;
+    background-position: 10px 12px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 80%;
+}
+
+/*styling the bottom text*/
+#para{
+	margin: 100px;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #39c639;
+}
+
+/*Media query for diffrent divices for responsive display*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    body{
+        background-image: url("../images/bg.jpg");
+		background-size: cover;
+
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body{
+        background-image: url("../images/bg.jpg");t;
+		background-size: cover;
+
+    } 
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        background-image: url("../images/bg.jpg");
+		background-size: cover;
+
+    } 
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    body{
+        background-image: url("../images/bg.jpg");;
+		background-size: cover;
+    } 
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body{
+        background-image: url("../images/bg.jpg");
+		background-size: cover;
+        margin: 5px;
+        max-width: 767px;
+    }
+    .wrapper {
+        display: block;
+        max-width: 767px;
+    } 
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        background-image: url("../images/bg.jpg");;
+		background-size: cover;
+        margin: 5px;
+        max-width: 480px;
+    } 
+
+    .wrapper {
+        display: block;
+        max-width: 480px;
+    } 
+}
+
+
